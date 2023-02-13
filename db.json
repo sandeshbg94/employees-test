@@ -1,62 +1,64 @@
-[
-  {
-    "name": "Suresh Nayak",
-    "Gender": "Male",
-    "Employee-Code": "ES2317",
-    "Designation": "Manager"
-  },
-  {
-    "name": "Akshatha Shetty",
-    "Gender": "Female",
-    "Employee-Code": "ES2428",
-    "Designation": "Software Engineer"
-  },
-  {
-    "name": "Mayank Agarwal",
-    "Gender": "Male",
-    "Employee-Code": "ES2516",
-    "Designation": "Technical Lead"
-  },
-  {
-    "name": "Surendranath Poojary",
-    "Gender": "Male",
-    "Employee-Code": "ES2528",
-    "Designation": "Senior Software Engineer"
-  },
-  {
-    "name": "Priyanka Jain",
-    "Gender": "Female",
-    "Employee-Code": "ES2217",
-    "Designation": "Trainee Engineer"
-  },
-  {
-    "name": "Mohammad Shaheer",
-    "Gender": "Male",
-    "Employee-Code": "ES2719",
-    "Designation": "Finance Executive"
-  },
-  {
-    "name": "Sameera Banu",
-    "Gender": "Female",
-    "Employee-Code": "ES2514",
-    "Designation": "Senior Software Engineer"
-  },
-  {
-    "name": "Karthik Bhat",
-    "Gender": "Male",
-    "Employee-Code": "ES2350",
-    "Designation": "Senior Software Engineer"
-  },
-  {
-    "name": "Divya Kulkarni",
-    "Gender": "Female",
-    "Employee-Code": "ES2625",
-    "Designation": "HR Executive"
-  },
-  {
-    "name": "Jeetan Rodriguez",
-    "Gender": "Male",
-    "Employee-Code": "ES2289",
-    "Designation": "Technical Architect"
-  }
-]
+{
+  "employees": [
+    {
+      "name": "Suresh Nayak",
+      "Gender": "Male",
+      "Employee-Code": "ES2317",
+      "Designation": "Manager"
+    },
+    {
+      "name": "Akshatha Shetty",
+      "Gender": "Female",
+      "Employee-Code": "ES2428",
+      "Designation": "Software Engineer"
+    },
+    {
+      "name": "Mayank Agarwal",
+      "Gender": "Male",
+      "Employee-Code": "ES2516",
+      "Designation": "Technical Lead"
+    },
+    {
+      "name": "Surendranath Poojary",
+      "Gender": "Male",
+      "Employee-Code": "ES2528",
+      "Designation": "Senior Software Engineer"
+    },
+    {
+      "name": "Priyanka Jain",
+      "Gender": "Female",
+      "Employee-Code": "ES2217",
+      "Designation": "Trainee Engineer"
+    },
+    {
+      "name": "Mohammad Shaheer",
+      "Gender": "Male",
+      "Employee-Code": "ES2719",
+      "Designation": "Finance Executive"
+    },
+    {
+      "name": "Sameera Banu",
+      "Gender": "Female",
+      "Employee-Code": "ES2514",
+      "Designation": "Senior Software Engineer"
+    },
+    {
+      "name": "Karthik Bhat",
+      "Gender": "Male",
+      "Employee-Code": "ES2350",
+      "Designation": "Senior Software Engineer"
+    },
+    {
+      "name": "Divya Kulkarni",
+      "Gender": "Female",
+      "Employee-Code": "ES2625",
+      "Designation": "HR Executive"
+    },
+    {
+      "name": "Jeetan Rodriguez",
+      "Gender": "Male",
+      "Employee-Code": "ES2289",
+      "Designation": "Technical Architect"
+    }
+  ]
+}
