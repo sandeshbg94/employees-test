@@ -59,6 +59,30 @@
       "Gender": "Male",
       "Employee-Code": "ES2289",
       "Designation": "Technical Architect"
+    },
+    {
+      "name": "Naveen Shetty",
+      "Gender": "Male",
+      "Employee-Code": "ES2327",
+      "Designation": "Technical Lead"
+    },
+    {
+      "name": "Thomas Sheperd",
+      "Gender": "Male",
+      "Employee-Code": "ES2337",
+      "Designation": "Manager"
+    },
+    {
+      "name": "Sumana Bhat",
+      "Designation": "HR Executive",
+      "Employee-Code": "ES2326",
+      "Gender": "Female"
+    },
+    {
+      "name": "Kiran Rai",
+      "Designation": "Finance Executive",
+      "Employee-Code": "ES2314",
+      "Gender": "Male"
     }
   ]
 }
