@@ -1,0 +1,20 @@
+{
+    "page": [
+      {
+        "viewType": "choice",
+        "type": "boolean",
+        "label": "Ad Blocker Detection",
+        "identifier": "adBlockerDetection",
+        "required": true,
+        "defaultValue": "false"
+      },
+      {
+        "viewType": "choice",
+        "type": "boolean",
+        "label": "Disable Ad Tracking",
+        "identifier": "isLimitedAdTracking",
+        "required": true,
+        "defaultValue": "false"
+      }
+    ]
+  }
