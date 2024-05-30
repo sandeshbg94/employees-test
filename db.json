@@ -104,5 +104,68 @@
         "defaultValue": "false"
       }
     ]
-  }
+  },
+  "adtech-json-schema": {
+    "$schema": "https://json-schema.org/draft/2020-12/schema",
+    "$id": "https://example.com/adtechInfo.schema.json",
+    "title": "AdTech Info",
+    "description": "An AdTech Info schema",
+    "type": "object",
+    "properties": {
+      "cohorts": {
+        "description": "The cohorts for AdTech Info",
+        "type": "string",
+        "defaultValue": "abcdef"
+      },
+      "adBlockerDetection": {
+        "description": "Ad Blocker Detection for AdTech Info",
+        "type": "boolean",
+        "defaultValue": true
+      },
+      "googlePALNonce": {
+        "description": "Google PAL Nonce for AdTech Info",
+        "type": "string",
+        "exclusiveMinimum": 0,
+        "defaultValue": "aa"
+      },
+      "debug": {
+        "type": "object",
+        "description": "Debug data object for AdTech Info",
+        "orientation": "horizontal",
+        "properties": {
+          "cana": {
+            "type": "string",
+            "defaultValue": "123456,789012"
+          },
+          "teliaAdLimit": {
+            "type": "integer",
+            "defaultValue": 100
+          }
+        }
+      },
+      "device": {
+        "type": "object",
+        "description": "Device details data object for AdTech Info",
+        "orientation": "vertical",
+        "properties": {
+          "adAttributes": {
+            "type": "string",
+            "defaultValue": "WNDJHjs82"
+          },
+          "adId": {
+            "type": "string",
+            "defaultValue": "C3402788-55B0-470B-82C0-4E49C8D52968"
+          }
+        },
+        "required": [
+          "adId"
+        ]
+      }
+    },
+    "required": [
+      "cohorts",
+      "adBlockerDetection",
+      "device"
+    ]
+  }  
 }
